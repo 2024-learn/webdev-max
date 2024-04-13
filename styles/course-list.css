@@ -1,5 +1,32 @@
+h1{
+  font-size: 48px;
+}
+a{
+  background-color: #e7f5f3;
+  color: #2111fa;
+  border-radius: 6px;
+  font-size: 18px;
+}
+a:hover{
+  background-color: rgb(229, 211, 246);
+}
 p{
   font-family: 'Fira Sans', sans-serif;
   color: #4d5e75;
   text-align: left;
+}
+ol{
+  text-align: left;
+  font-family: 'Fira Sans', sans-serif;
+  color: #4d5e75;
+}
+ul{
+  text-align: left;
+  font-family: 'Fira Sans', sans-serif;
+  color: #4d5e75;
+}
+li{
+  background-color: #def0f7;
+  border-radius: 5px;
+  margin: 15px;
 }

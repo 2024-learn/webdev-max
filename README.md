@@ -57,4 +57,12 @@
   - You can use the special `<pre>...</pre>` tags (for "preformatted text") - these tags wrap any text (that may include HTML code) and "tell the browser" to output it as plain text (i.e. NOT interpret it as HTML code). When using `<pre>`, whitespace is also preserved and NOT ignored (as it normally would be)
   - Alternatively, if you simply want to output the "<" character (e.g. in some math formula that should be shown on your page), you can use some special "shortcuts" (so-called "HTML entities") in your HTML code:
   - E.g. if you write `&gt;` in your HTML code, the browser will output the ">" (greater than) symbol and `&lt;` => "<" (lower than)
-  - 
+
+- Creating lists:
+  - ordered lists `<ol></ol>`
+  - unordered lists: `<ul></ul>`
+
+- Cascading, Inheritance and Specificity
+  - Inheritance: (Selected) container rules apply to descendants
+  - Cascading: Multiple rules can be applied to the same element
+  - Specificity: more specific selector's rule wins over less specific selector
