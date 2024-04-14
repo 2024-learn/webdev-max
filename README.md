@@ -66,3 +66,25 @@
   - Inheritance: (Selected) container rules apply to descendants
   - Cascading: Multiple rules can be applied to the same element
   - Specificity: more specific selector's rule wins over less specific selector
+
+- Selectors and Combinators
+  - Selectors:
+    - Type: elementname
+    - ID: #id - can only be used for one element
+    - Group: elementname, elementname
+    - Class: .class - like #id but can be used for multiple elements
+  - Combinators: combination of different selectors
+    - Descendant: e.g. li p - rules will apply to all p items with list item as ancestor
+    - Child: e.g. h2 > p - only p items which are direct children of h2 would have the defined style
+
+- Block (level) elements vs. Inline elements
+  - A block element occupies the full width of the page and creates a new line. 
+    - E.g. `<p>This is a block element</p>`
+  - An inline element only occupies as much space as is needed for the content
+    - E.g. `<p> This <a>link is an inline element</a> nested into a block element</p>`
+    - common inline elements:
+      - `<a>` : Link to other wesite/page of the current website
+      - `<button>` : Clickable button to submit forms
+      - `<img>` : Embed image into a HTML page
+      - `<span>` : No-semantic inline container to mark-up text
+      - 

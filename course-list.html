@@ -1,88 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-  
-  <link href="styles/shared.css" rel="stylesheet" />
-  <link href="styles/course-list.css" rel="stylesheet" />
-  
-  <title>My DevOps Roadmap</title>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    
+    <link href="styles/shared.css" rel="stylesheet" />
+    <link href="styles/course-list.css" rel="stylesheet" />
+    
+    <title>My DevOps Roadmap</title>
 
-</head>
-<body>
-  <img src="images/devops-image.png" alt="devops-image">
-
-  <h1>My DevOps Roadmap</h1>
-
-  <p> <a href="index.html">Return to the Home Page</a> </p>
-
-  <p>Programming</p>
-  <ul>
-    <li>Golang</li>
-    <li>Python</li>
-    <li>Javascript</li>
-    <li>Ruby</li>
-  </ul>
-  <p>Server Administration</p>
-  <ul>
-    <li>Linux</li>
-    <li>Linux Troubleshooting</li>
-  </ul>
-  <p>Network</p>
-  <ul>
-    <li>TCP/IP</li>
-    <li>Protocols</li>
-    <li>Load Balancing</li>
-    <li>Ingress</li>
-  </ul>
-  <p>Database Administration</p>
-  <ul>
-    <li>NoSQL</li>
-    <li>SQL</li>
-    <li>Database Engineering</li>
-  </ul>
-  <p>Cloud Engineering</p>
-  <ul>
-    <li>GCP</li>
-    <li>AWS</li>
-  </ul>
-  <p>Containerization & Container Orchestration</p>
-  <ul>
-    <li>Docker</li>
-    <li>Kubernetes</li>
-  </ul>
-  <p>Infrastructure as Code</p>
-  <ul>
-    <li>Terraform</li>
-    <li>Ansible</li>
-  </ul>
-  <p>CI/CD</p>
-  <ul>
-    <li>Jenkins</li>
-    <li>Github Actions</li>
-    <li>ArgoCD</li>
-    <li>Gitlab CI</li>
-  </ul>
-  <p>Monitoring and Logging</p>
-  <ul>
-    <li>Prometheus</li>
-    <li>Grafana</li>
-    <li>Splunk</li>
-    <li>ELK</li>
-    <li>Datadog</li>
-    <li>New Relic</li>
-  </ul>
-  <p>DevSecOps</p>
-  <ul>
-    <li>Application Security</li>
-    <li>Kubernetes Security</li>
-    <li>Network Security</li>
-    <li>Container Security</li>
-  </ul>
-  
-
-</body>
+  </head>
+  <body>
+    <header>
+      <img src="images/devops-image.png" alt="devops-image">
+      <h1>A Year in DevOps</h1>
+      <p id="mycourselist">My Course List</p>
+      <a href="index.html">Return to the Home Page</a>
+    </header>
+    
+    <main>
+      <ul>
+        <li>
+          <h2>Programming</h2>
+          <p>Golang</p>
+          <p>Python</p>
+          <p>Javascript</p>
+          <p>Ruby</p>
+        </li>
+        <li>
+          <h2>Servers</h2>
+          <p>Linux Administration</p>
+          <p>Linux Troubleshooting</p>
+          <p>Shell Scripting</p>
+        </li>
+        <li>
+          <h2>Networking</h2>
+          <p>TCP/IP</p>
+          <p>Protocols</p>
+          <p>Load Balancing</p>
+          <p>Ingress</p>
+        </li>
+        <li>
+          <h2>Databases</h2>
+          <p>NoSQL</p>
+          <p>SQL</p>
+          <p>Database Engineering</p>
+        </li>
+        <li>
+          <h2>Cloud Engineering</h2>
+          <p>GCP</p>
+          <p>AWS</p>
+        </li>
+        <li>
+          <h2>Containerization & Container Orchestration</h2>
+          <p>Docker</p>
+          <p class="subject">Kubernetes, Helm, Kustomize, EKS, GKE</p>
+        </li>
+        <li>
+          <h2>Infrastructure as Code</h2>
+          <p>Terraform</p>
+          <p>Ansible</p>
+        </li>
+        <li>
+          <h2>CI/CD</h2>
+          <p>Jenkins</p>
+          <p>Github Actions</p>
+          <p>ArgoCD</p>
+          <p>Gitlab CI</p>
+        </li>
+        <li>
+          <h2>Monitoring and Logging</h2>
+          <p>Prometheus</p>
+          <p>grafana</p>
+          <p>Splunk</p>
+          <p>ELK</p>
+          <p>Datadog</p>
+          <p>New Relic</p>
+        </li>
+        <li>
+          <h2>DevSecOps</h2>
+          <p>Application Security</p>
+          <p>Kubernetes Security</p>
+          <p>Network Security</p>
+          <p>Container Security</p>
+          <p>Cloud Security</p>
+        </li>
+        <li>
+          <h2>Documentation, Ticketing & Alerting</h2>
+          <p>Jira</p>
+          <p>Confluence</p>
+          <p>Slack</p>
+          <p>Pager Duty</p>
+        </li>
+      </ul>
+    </main>
+  </body>
 </html>
