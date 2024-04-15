@@ -1,6 +1,7 @@
 body{
   text-align: center;
   background-color: #edf5f4;
+  color: #4d5e75;
   margin: 50px;
 }
 img{
@@ -17,6 +18,7 @@ p{
   font-family: 'Fira Sans', sans-serif;
   /* text-align:center; */
   color: #4d5e75;
+  font-size: 24px;
 }
 a {
   color: #1328e8;
@@ -24,6 +26,7 @@ a {
 }
 a:hover { /*void selector*/
   text-decoration: underline; /* will only show this when hovering over the hyperlink */
+  background-color: #e5d3f6;
 }
 #subtitle{ /*id selector*/
   color: #092a59;

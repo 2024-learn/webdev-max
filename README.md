@@ -87,4 +87,49 @@
       - `<button>` : Clickable button to submit forms
       - `<img>` : Embed image into a HTML page
       - `<span>` : No-semantic inline container to mark-up text
-      - 
+
+- Box-shadow:
+  - `box-shadow: offset on x-axis, offset on y, blur, rgba(0 0 0 1); 1 = opacity`
+  - `box-shadow: 5px 5px 5px rgba(0 0 0 1);`
+
+- __CSS selectors:__
+- _Tag type selector_
+  - CSS: `p { ... }`
+  - Would select this HTML element for example: `<p>Some text...</p>`
+  - This selector selects all HTML elements that are of this tag type
+
+- _ID selector_
+  - CSS: `#some-id { ... }`
+  - Would select this HTML element for example: `<h1 id="some-id">...</h1>`
+  - This selectors selects the element that has this ID on it (should only be once per page)
+
+- _Class selector_
+  - CSS: `.some-class { ... }`
+  - Would select this HTML element for example: `<h1 class="some-class">...</h1>`
+  - This selector selects all HTML elements that have this class on them
+
+- _Attribute selector (new)_
+  - CSS: `[src] { ... }`
+  - Would select this HTML element for example: `<img src="...">`
+  - This selector selects all elements that have this HTML attribute on them
+
+- _Universal selector (new)_
+  - CSS: * { ... }
+  - Would select this HTML element for example: `<p>....</p><img ...>`
+  - This selector selects ALL HTML elements (directly, not through inheritance but as if you would target them all individually)
+
+- _Grouping selector / selector list_
+  - CSS: `p, .some-class { ... }`
+  - Would select this HTML element for example: `<p>...</p><h2 class="some-class">...</h2>`
+  - This selector selects all elements that match the individual selectors in that list
+
+- _Combined selector_
+  - CSS: `p.some-class { ... }`
+  - Would select this HTML element for example: `<p class="some-class">...</p>`
+  - This selector selects all elements that meet both conditions (i.e. `"<p>"` elements with "some-class" class on it, in this example)
+
+- _Pseudo selector_
+  - CSS: `a:hover { ... }`
+  - Would select this HTML element for example: `<a>...</a>` (when the user hovers over it)
+  - This selector selects all elements that meet this "pseudo state" (i.e. all links that are hovered in this example)
+  - 

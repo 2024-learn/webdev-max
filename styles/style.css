@@ -1,12 +1,29 @@
-body{
-  margin: 50px;
+main{
+  width: 800px;
+  margin: 200px auto 72px auto;
+  background-color: #d1e5e3;
+  padding: 24px;
+  border: 5px solid #afb6b5;
+  border-radius: 8px;
+  box-shadow: 2px 1px 8px rgba(0, 0, 0, 0.3);
 }
 
 img{
   width: 300px;
   height: 168px;
   border-radius: 100px;
+  border: 5px solid #afb6b5;
+  margin-top: -118.5px; /* (negative margins): 1/2(diagram height) + border + padding */
 }
+
+h1{
+  font-size: 30px;
+}
+
+span{
+  color: #092a59;
+}
+
 
 #subtitle {
   color: #092a59;
