@@ -1,0 +1,72 @@
+header{
+  color: #4b1d99;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+img{
+  width: 500px;
+  height: 300px;
+}
+
+body {
+  background-color: #c9b1e1;
+  text-align: center;
+  margin: 10px 200px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+p{
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+main {
+  background-color: #6711d1;
+  border-radius: 10px;
+  text-align: left;
+  color: white;
+  padding: 30px 50px;
+  
+}
+li {
+  list-style: none;
+}
+.highlight-text{
+  color: #ede1a8;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  background-color: #ffe4c4;
+  text-decoration: underline;
+}
+
+span {
+  background-color: #ffe4c4;
+  color: #6711d1;
+  border-radius: 2px;
+  padding: 5px;
+}
+footer {
+  margin: 100px 400px;
+  width: 300px;
+}
+
+#downloadpdf {
+  background-color: #bca637;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#copyright {
+  color: #313132;
+  font-size: 20px;
+}
