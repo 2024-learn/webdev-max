@@ -132,4 +132,9 @@
   - CSS: `a:hover { ... }`
   - Would select this HTML element for example: `<a>...</a>` (when the user hovers over it)
   - This selector selects all elements that meet this "pseudo state" (i.e. all links that are hovered in this example)
-  - 
+
+- Instructing the browser
+  - To open the link in the existing tab to `_self`:
+    - `<a href="https://xyz.com" target="_self"> the MDN HTML element reference</a>.`
+  - To open the link in a new tab, set the target to `_blank`:
+    - `<a href="https://xyz.com" target="_blank"> the MDN HTML element reference</a>.`

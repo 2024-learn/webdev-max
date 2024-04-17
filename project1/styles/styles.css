@@ -65,20 +65,21 @@ p a:hover, a:active {
 }
 
 footer {
-  margin: 40px 500px;
-  width: 300px;
+  margin: 40px;
+  text-align: center;
 }
 
 footer a {
   background-color: #bca637;
-  padding: 20px;
+  padding: 12px 20px;
+  color: #313132;
   font-size: 20px;
-  text-align: center;
   border-radius: 10px;
 }
 
 footer a:hover, a:active{
   background-color: #ffe4c4;
+  color: #6711d1;
   text-decoration: underline;
 }
 
@@ -86,5 +87,5 @@ footer a:hover, a:active{
   color: #313132;
   font-size: 20px;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 60px;
 }
