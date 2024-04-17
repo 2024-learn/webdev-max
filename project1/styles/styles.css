@@ -1,20 +1,18 @@
 body {
   background-color: #c9b1e1;
-  text-align: center;
   margin: 10px 200px;
   font-family: 'Fira Sans', sans-serif;
 }
 
 header{
   color: #4b1d99;
-  font-family: 'Fira Sans', sans-serif;
   font-size: 40px;
   margin-top: 50px;
+  text-align: center;
 }
 
-img{
-  width: 500px;
-  height: 300px;
+header img{
+  width: 400px;
   margin-bottom: 100px;
 }
 
@@ -31,43 +29,62 @@ main {
   border-radius: 10px;
   text-align: left;
   color: white;
-  padding: 30px 50px;
-  
+  margin: 10px 50px;
+  padding: 30px 60px;
+}
+
+.bold-text{
+  font-weight: 900;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  list-style: none;
 }
 li {
-  list-style: none;
+  margin: 14px 0;
+  padding-left: 10px;
+  border-left: 5px solid transparent;
 }
 .highlight-text{
   color: #ede1a8;
+  border-color: #ede1a8;
 }
-a {
-  text-decoration: none;
-}
-a:hover {
+p a {
   background-color: #ffe4c4;
+  color: #6711d1;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 5px;
+}
+a:hover, a:active {
+  background-color: #bca637;
   text-decoration: underline;
 }
 
-span {
-  background-color: #ffe4c4;
-  color: #6711d1;
-  border-radius: 2px;
-  padding: 5px;
-}
 footer {
-  margin: 20px 400px;
+  margin: 40px 500px;
   width: 300px;
 }
 
-#downloadpdf {
+footer a {
   background-color: #bca637;
-  padding: 20px 20px;
+  padding: 20px;
   font-size: 20px;
   text-align: center;
   border-radius: 10px;
 }
 
+footer a:hover, a:active{
+  background-color: #ffe4c4;
+  text-decoration: underline;
+}
+
 #copyright {
   color: #313132;
   font-size: 20px;
+  text-align: center;
+  margin-top: 40px;
 }
