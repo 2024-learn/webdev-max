@@ -138,3 +138,6 @@
     - `<a href="https://xyz.com" target="_self"> the MDN HTML element reference</a>.`
   - To open the link in a new tab, set the target to `_blank`:
     - `<a href="https://xyz.com" target="_blank"> the MDN HTML element reference</a>.`
+
+- `<em></em>`: emphasis or `<strong></strong>` - difference in pronounciation
+- 
