@@ -8,6 +8,7 @@ header{
 img{
   width: 500px;
   height: 300px;
+  margin-bottom: 100px;
 }
 
 body {
@@ -54,13 +55,13 @@ span {
   padding: 5px;
 }
 footer {
-  margin: 100px 400px;
+  margin: 20px 400px;
   width: 300px;
 }
 
 #downloadpdf {
   background-color: #bca637;
-  padding: 20px;
+  padding: 20px 20px;
   font-size: 20px;
   text-align: center;
   border-radius: 10px;
