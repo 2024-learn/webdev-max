@@ -59,7 +59,7 @@ p a {
   text-decoration: none;
   padding: 5px;
 }
-a:hover, a:active {
+p a:hover, a:active {
   background-color: #bca637;
   text-decoration: underline;
 }
