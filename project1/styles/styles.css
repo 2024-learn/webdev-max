@@ -1,3 +1,10 @@
+body {
+  background-color: #c9b1e1;
+  text-align: center;
+  margin: 10px 200px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
 header{
   color: #4b1d99;
   font-family: 'Fira Sans', sans-serif;
@@ -9,13 +16,6 @@ img{
   width: 500px;
   height: 300px;
   margin-bottom: 100px;
-}
-
-body {
-  background-color: #c9b1e1;
-  text-align: center;
-  margin: 10px 200px;
-  font-family: 'Fira Sans', sans-serif;
 }
 
 p{
