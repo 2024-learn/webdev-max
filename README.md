@@ -139,5 +139,8 @@
   - To open the link in a new tab, set the target to `_blank`:
     - `<a href="https://xyz.com" target="_blank"> the MDN HTML element reference</a>.`
 
-- `<em></em>`: emphasis or `<strong></strong>` - difference in pronounciation
-- 
+- `<em></em>`: emphasis or `<strong></strong>` - difference in pronounciation. They automatically make the text bold by default.
+  - These can be used in lieu of making the `<span>text</span>` bold
+  
+- You can host your website on <https://app.netlify.com/drop> which offers HTTPS by default.
+- Generating a favicon:
