@@ -18,3 +18,19 @@ ul{
   /* text-transform: uppercase; */
   text-shadow: 1px 1px 2px #000000;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  /* background-image: url("../images/places/dhow.webp"); */
+}
+
+header ul {
+  display: flex;
+}
+
+header li {
+  margin-left: 20px;
+}
