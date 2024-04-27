@@ -27,13 +27,14 @@
 #hero-content p{
   color: black;
   /* text-transform: uppercase; */
-  font-size: 24px;
+  font-size: 18px;
   margin-bottom: 32px;
 }
 
 #hero-content a{
   text-decoration: none;
   background-color: #909899;
+  color: #bfbfee;
   padding: 12px 24px;
   border-radius: 6px;
   font-size: 20px;
@@ -46,15 +47,43 @@
   color: #444343;
 }
 
+#highlights h2{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  color: #444343;
+}
 
+#fave-dest {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  margin-bottom: 40px;
+  justify-content: center;
+}
 
+.destination {
+  margin: 0 10px;
+}
 
+.destination p {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 20px 0;
+}
 
+.destination img {
+  height: 200px;
+  width: 100%;
+  box-shadow: 2px 4px 8px #646060;
+  border-radius: 10px;
+  object-fit: cover; /*fit contain cover*/
+}
 
-
-
-
-
+.destination strong{
+  color: #047304;
+}
 
 
 

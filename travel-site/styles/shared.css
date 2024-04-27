@@ -12,7 +12,7 @@ ul{
 #page-logo a{
   padding: 10px;
   font-family: Georgia, sans-serif;
-  color: #176aa6;
+  color: #22699c;
   text-decoration: none;
   font-size: 50px;
   /* text-transform: uppercase; */
@@ -25,6 +25,11 @@ header {
   align-items: center;
   padding: 15px 60px;
   /* background-image: url("../images/places/dhow.webp"); */
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
 }
 
 header ul {
@@ -33,4 +38,18 @@ header ul {
 
 header li {
   margin-left: 20px;
+}
+
+header a{
+  color: #444343;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 12px;
+  /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); */
+  border-radius: 6px;
+}
+
+header a:hover {
+  color: #bfbfee;
+  background-color: #444343;
 }
