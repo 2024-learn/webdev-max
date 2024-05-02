@@ -144,3 +144,6 @@
   
 - You can host your website on <https://app.netlify.com/drop> which offers HTTPS by default.
 - Generating a favicon:
+
+- Adding unicode : https://en.wikipedia.org/wiki/Arrows_(Unicode_block)
+- `<div class="actions"><a href="https://en.wikipedia.org/wiki/zambia">Explore &#x2192</a></div>`

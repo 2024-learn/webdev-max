@@ -1,15 +1,36 @@
 body {
-  background: linear-gradient(30deg, #0603a7, #a7a5a5);
+  background: linear-gradient(30deg, #608f92, #a5a29b);
   color: #0d3005;
+}
+
+#page-logo a {
+  color: #608f92;
+}
+
+#page-logo a:hover {
+  color: #a5a29b;
+  background-color: #444343;
 }
 
 header{
   position: static;
 }
 
+header nav a:hover{
+  color: #a5a29b;
+  background-color: #444343;
+}
+
 main ul{
   width: 1500px;
-  margin: 0 auto;
+  margin: 0 auto 48px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 20px;
+}
+
+main li:nth-of-type(3){
+  grid-column: 1 / span 2 ;
 }
 
 main li {
@@ -18,7 +39,7 @@ main li {
   box-shadow: 1px 1px 4px #00000033;
   border-radius: 8px;
   overflow: hidden;   /*visible -->(default)*/
-  width: 500px;
+  /* width: 500px; */
 }
 
 main li img {
@@ -28,10 +49,14 @@ main li img {
 }
 
 .item-content {
-  padding: 24px;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
-  flex-direction: column;
+  flex-direction: column; /*row --> default*/
+}
+
+.item-content h2{
+  margin: 0;
 }
 
 .actions{
@@ -39,7 +64,7 @@ main li img {
 }
 
 .actions a {
-  color: #2bedea;
+  color: #10b597;
   font-weight: bolder;
   text-decoration: none;
   padding: 6px;
