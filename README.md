@@ -154,3 +154,17 @@
   - Flexbox (Flex Items): <https://academind.com/tutorials/flexbox-flex-items/>
   - Comparing Flexbox and the Grid: <https://academind.com/tutorials/css-grid-vs-flexbox/>
 
+- Comparing units(font-size)
+  - Pixels (px):
+    - Pro: easy to to understand, easily translate
+    - Cons: limited user focus and no scalable
+  - %
+    - Relative to parent element size
+    - Hard to manage due to cascading nature
+  - Ephemeral Unit (em):
+    - Size that is relative to the font size
+    - Hard to manage due to cascading nature
+  - Root Ephemeral Unit (em):
+    - Size is relative to root element's font size
+    - Preferred choice is applicable
+
