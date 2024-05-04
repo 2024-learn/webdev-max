@@ -15,20 +15,18 @@ ul {
 #main-header { 
   background-color: #161414;
   display: flex;
-  height: 80px;
+  height: 5rem;
   justify-content: space-between;
-  /* position: static; */
   align-items: center;
-  padding: 0 20px;
+  padding: 0 5%;
 }
 
 #logo {
   display: flex;
   color: #da8319;
-  font-size: 48px;
+  font-size: 2rem;
   font-weight: bolder;
   text-transform: uppercase;
-  padding: 20px;
 }
 
 #main-header ul {
@@ -39,12 +37,12 @@ ul {
 }
 
 #main-header li {
-  margin: 0 16px;
+  margin: 0 1rem;
 }
 
 #main-header nav a {
   color: #da8319;
-  font-size: 20px;
+  font-size: 1.25rem;
   border-radius: 4px;
 }
 
@@ -55,14 +53,14 @@ ul {
 
 main h1 {
   /* padding: 40px; */
-  font-size: 36px;
+  font-size: 3rem;
   color: #da8319;
   text-align: center;
 }
 
 #products {
   width: 80%;
-  margin: 50px auto;
+  margin: 2rem auto;
 }
 
 #products ul{
@@ -70,7 +68,7 @@ main h1 {
   padding: 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 30px;
+  gap: 1rem;
 }
 
 .food-item{
@@ -81,12 +79,12 @@ main h1 {
 
 .food-item img{
   width: 100%;
-  height: 240px;
+  height: 20rem;
   object-fit: cover;
 }
 
 .food-item-content {
-  padding: 20px;
+  padding: 1.5rem;
   text-align: center;
 }
 
@@ -94,7 +92,7 @@ main h1 {
   color: #faebd7;
   background-color:#f98f0f ;
   border-radius: 4px;
-  padding: 8px 20px;
+  padding: 0.5rem 1.5rem;
 }
 
 .btn:hover{
@@ -104,16 +102,22 @@ main h1 {
 
 footer {
   background: linear-gradient(30deg, #16350e, #434c57);
-  padding: 15px;
+  padding: 1rem;
 }
 
 footer ul {
   display: flex;
-  height: 120px;
   justify-content: center;
 }
 
 footer img{
-  height: 100px;
+  height: 5rem;
   border-radius: 10px;
 }
+
+@media(max-width: 768px) {
+  #products ul {
+    grid-template-columns: 100%;
+  }
+}
+/* @media has to be at the bottom of the CSS code */

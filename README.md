@@ -146,7 +146,8 @@
 - Generating a favicon:
 
 - Adding unicode : https://en.wikipedia.org/wiki/Arrows_(Unicode_block)
-- `<div class="actions"><a href="https://en.wikipedia.org/wiki/zambia">Explore &#x2192</a></div>`
+- <https://www.compart.com/en/unicode/decomposition/%3Ccircle%3E>
+  - `<div class="actions"><a href="https://en.wikipedia.org/wiki/zambia">Explore &#x2192</a></div>`
 
 - More about:
   - The position property: <https://academind.com/tutorials/the-position-property/>
