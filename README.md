@@ -169,3 +169,16 @@
     - Size is relative to root element's font size
     - Preferred choice is applicable
 
+- Common breakpoints for media queries:
+  - Smartphone: 480px
+  - Table : 768px
+  - Notebook: 1024px
+  - Desktop Computer: 1200px
+  - TV: > 1200px
+
+- Internal links: 
+  - Adds defined ID to URL: `href="id"`
+- Target Selector:
+  - Activates CSS rules if defined ID is selected in URL: `#id:target`
+  - 
+

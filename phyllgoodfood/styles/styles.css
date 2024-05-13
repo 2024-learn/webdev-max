@@ -29,30 +29,47 @@ ul {
   text-transform: uppercase;
 }
 
-#main-header ul {
-  list-style: none;
+.menu-btn {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.menu-btn span{
+  width: 100%;
+  height: 3px;
+  background-color: #da8319;  /*#9a19da*/
+}
+
+#side-drawer{
+  width: 100%;
+  height: 100%;
+  background-color: #19212b;
+  /* position: fixed;
+  top: 0;
+  left: 0; */
+}
+
+#side-drawer ul{
   display: flex;
   margin: 0;
-  padding: 0;
+  padding: 4rem 1rem;
+  flex-direction: column;
+  align-items: center;
 }
 
-#main-header li {
-  margin: 0 1rem;
+#side-drawer li{
+  margin: 1rem 0;
 }
 
-#main-header nav a {
-  color: #da8319;
-  font-size: 1.25rem;
-  border-radius: 4px;
-}
-
-#main-header nav a:hover {
-  background-color: #da8319;
-  color: #29221f;
+#side-drawer a{
+  color: #f98f0f;
+  font-size: 2rem;
 }
 
 main h1 {
-  /* padding: 40px; */
   font-size: 3rem;
   color: #da8319;
   text-align: center;
@@ -115,9 +132,17 @@ footer img{
   border-radius: 10px;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 48rem) { /*768px*/
+  main h1{
+    font-size: 1.5rem;
+  }
+
   #products ul {
     grid-template-columns: 100%;
   }
+
+  #main-header nav{
+    display: none;
+  }
 }
-/* @media has to be at the bottom of the CSS code */
+/* @media has to be at the bottom of the CSS code. max-width when stating with computer first, min-width when stating with mobile first */
